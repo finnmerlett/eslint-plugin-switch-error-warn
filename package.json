@@ -1,5 +1,5 @@
 {
-  "name": "eslint-plugin-only-warn",
+  "name": "eslint-plugin-switch-error-warn",
   "version": "1.0.2",
   "description": "Downgrade errors to warnings",
   "keywords": [
@@ -7,16 +7,16 @@
     "eslintplugin",
     "eslint-plugin"
   ],
-  "main": "src/only-warn.js",
+  "main": "src/switch-error-warn.js",
   "scripts": {
     "test": "eslint src tests && jest",
     "test:watch": "jest --watch"
   },
   "author": "Bob Fanger",
-  "homepage": "https://github.com/bfanger/eslint-plugin-only-warn",
+  "homepage": "https://github.com/bfanger/eslint-plugin-switch-error-warn",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bfanger/eslint-plugin-only-warn.git"
+    "url": "https://github.com/bfanger/eslint-plugin-switch-error-warn.git"
   },
   "prettier": {
     "semi": false,

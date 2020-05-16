@@ -1,8 +1,8 @@
-# eslint-plugin-only-warn
+# eslint-plugin-switch-error-warn
 
-[![Build Status](https://travis-ci.org/bfanger/eslint-plugin-only-warn.svg?branch=master)](https://travis-ci.org/bfanger/eslint-plugin-only-warn)
+Switch errors to warnings and visa versa
 
-Downgrade errors to warnings
+This is a fork of [eslint-plugin-only-warn](https://travis-ci.org/bfanger/eslint-plugin-only-warn), modified to flip error and warn statuses on messages rather than downgrading all to warn status. This allows the default to still be warn whilst allowing a crude form of exceptions to the default.
 
 ## Installation
 
@@ -12,22 +12,22 @@ You'll first need to install [ESLint](http://eslint.org):
 $ npm i eslint --save-dev
 ```
 
-Next, install `eslint-plugin-only-warn`:
+Next, install `eslint-plugin-switch-error-warn`:
 
 ```
-$ npm install eslint-plugin-only-warn --save-dev
+$ npm install eslint-plugin-switch-error-warn --save-dev
 ```
 
-**Note:** If you installed ESLint globally (using the `-g` flag) then you must also install `eslint-plugin-only-warn` globally.
+**Note:** If you installed ESLint globally (using the `-g` flag) then you must also install `eslint-plugin-switch-error-warn` globally.
 
 ## Usage
 
-Add `only-warn` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
+Add `switch-error-warn` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
 
 ```json
 {
     "plugins": [
-        "only-warn"
+        "switch-error-warn"
     ]
 }
 ```
