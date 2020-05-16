@@ -4,7 +4,9 @@ Switch errors to warnings and visa versa
 
 This is a fork of [eslint-plugin-only-warn](https://travis-ci.org/bfanger/eslint-plugin-only-warn), modified to flip error and warn statuses on messages rather than downgrading all to warn status. This allows the default to still be warn whilst allowing a crude form of exceptions to the default.
 
-This does mean that the rules that would normally default to warn must be changed to error if you want them to still only trigger warnings (e.g. 'no-console')
+This does mean that the rules that would normally default to warn must be changed to error if you want them to still only trigger warnings (e.g. 'no-console').
+
+DISCLAIMER: I made this fork very quickly, for my own use. Use if useful, I would not consider this good practice at all in general.
 
 ## Installation
 
